@@ -8,7 +8,7 @@ function swatch('image', 'hue', 'product type', 'rating', 'availability', 'cost'
   this.color = color;
   this.brand = brand;
 
-}
+};
 
 
 var ebonyLipArray = []
