@@ -1,3 +1,5 @@
 function getSwatch () {
-	document.write('Swatch getter');
+	document.write('Swatches for deep complexions!');
 }
+
+getSwatch();
