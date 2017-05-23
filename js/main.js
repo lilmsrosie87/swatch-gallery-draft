@@ -1,8 +1,15 @@
-function getSwatch () {
+function getThatSwatch () {
 	document.write('Swatches for deeper complexions! Coming Soon');
 }
 
-function getLipSwatch (color, product) {
-	return ('color' + 'product');
+function getSwatch (image, color, brand,formula) {
+	var swatchSearch = image + color;
+	var swatchClick = image + brand + formula;
+var swatchInfo = [swatchSearch, swatchClick];
+	return swatchInfo;
 }
+
+var swatchOne
+
+
 
