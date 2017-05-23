@@ -1,5 +1,8 @@
 function getSwatch () {
-	document.write('Swatches for deep complexions!');
+	document.write('Swatches for deeper complexions! Coming Soon');
 }
 
-getSwatch();
+function getLipSwatch (color, product) {
+	return ('color' + 'product');
+}
+
