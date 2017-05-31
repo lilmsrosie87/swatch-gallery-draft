@@ -10,7 +10,8 @@ var swatchInfo = [swatchSearch + swatchClick];
 }
 
 var swatchOne = getSwatch(1,'red','MAC','matte',16)
-document.write(swatchOne)
+var swatchTwo = getSwatch(2,'pink','YSL','glossy',34) 
+
 
 
 
