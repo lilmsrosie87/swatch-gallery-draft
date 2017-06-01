@@ -12,7 +12,7 @@ var swatchInfo = [swatchSearch + swatchClick];
 
 //dot notation
 var newSwatch = product['image', 'color', 'name', 'brand', 'finish', 'price']
-	findSwatch(onclick)
+	findSwatch()
 
 var swatchOne = {
 	image: 'img/purple_lip.jpg'
