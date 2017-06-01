@@ -2,16 +2,24 @@ function getThatSwatch () {
 	document.write('Swatches for deeper complexions! Coming Soon');
 }
 
-function getSwatch(image, color, brand, formula, price) {
+function getSwatch(image, color, name, brand, finish, price) {
 	var swatchSearch = image + color;
 	var swatchClick = price + brand + formula;
 var swatchInfo = [swatchSearch + swatchClick];
 	return swatchInfo;
 }
 
-var swatchOne = 
+var swatchOne = {
+	image: 'img/purple_lip.jpg'
+	color: 'purple'
+	name: 'Shameless'
+	brand: 'Revlon'
+	finish: 'matte'
+	price: 8
+};
+	
 
-var swatchTwo = getSwatch(2,'pink','YSL','glossy',34)
+var swatchTwo = getSwatch(2,'pink','Petal Pink','YSL','glossy',34)
  
 
 
