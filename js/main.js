@@ -11,17 +11,19 @@ var swatchInfo = [swatchSearch + swatchClick];
 
 
 //dot notation
-var newSwatch = product['image', 'color', 'name', 'brand', 'finish', 'price']
-	findSwatch();
+var 
 
 //literal notation
 var swatchOne = {
-	image: 'img/purple_lip.jpg'
-	color: 'purple'
+	image: 'image'
+	hue: 'purple'
 	name: 'Shameless'
 	brand: 'Revlon'
 	finish: 'matte'
 	price: 8
+	searchForBrand: function() {
+		return this.brand + this.hue;
+	}
 };
 	
 
