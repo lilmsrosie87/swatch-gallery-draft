@@ -15,7 +15,7 @@ var
 
 //literal notation
 var swatchOne = {
-	image: 'image'
+	image: 'img/purple_lip.jpg'
 	hue: 'purple'
 	name: 'Shameless'
 	brand: 'Revlon'
