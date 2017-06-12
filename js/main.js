@@ -27,7 +27,7 @@ var swatchOne = {
 };
 	
 var findSwatch = document.getElementById('hue');
-findSwatch.textContent = swatchOne.searchForBrand();
+findSwatch.textContent = swatchOne.hue;
 
 
 //var swatchTwo = getSwatch(2,'pink','Petal Pink','YSL','glossy',34)
