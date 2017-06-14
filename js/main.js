@@ -7,7 +7,7 @@ function getThatSwatch () {
 	//var swatchClick = price + brand + formula;
 //var swatchInfo = [swatchSearch + swatchClick];
 	//return swatchInfo;
-}
+//}
 
 
 //constructor notation
