@@ -15,7 +15,7 @@ var lipstick = new Object();
 lipstick.image = 'img/purple_lip.jpg';
 lipstick.name = 'Shameless';
 lipstick.hue = 'purple';
-liptick.brand = 'Revlon';
+lipstick.brand = 'Revlon';
 
 lipstick.searchSwatch = function() {
 	return this.image + this.name;
