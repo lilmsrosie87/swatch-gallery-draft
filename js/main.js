@@ -31,8 +31,8 @@ lipstick.brand = 'Revlon';
 
 lipstick.search = function() {
 	return this.image + this.name;
-
 };
+
 //var getSwatch = document.getElementById('lipstickImage');
 //getSwatch.textContent = lipstick.image;
 	
