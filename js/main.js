@@ -26,7 +26,7 @@ function Product (image, name, hue, brand, price) {
 //updating an object page 107	
 var teddyBare = new product('img/nude_lip.jpg', 'Teddy Bare', 'brown', 'Milani', 8);
 var shameLess = new product('img/purple_lip.jpg', 'Shameless', 'purple', 'Revlon', 7);
-
+ 
 
 //var lipstick = new product();
 //lipstick.image = 'img/purple_lip.jpg';
