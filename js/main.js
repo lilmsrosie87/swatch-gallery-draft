@@ -11,21 +11,29 @@ function getThatSwatch () {
 
 
 //constructor notation with many objects
-function Product (image, name, hue, brand, price) {
+function product (image, name, hue, brand, price) {
 	this.image = image
 	this.name = name;
 	this.hue = hue;
 	this.brand = brand;
 	this.price = price;
+
+//from https://stackoverflow.com/questions/14299917/making-a-simple-javascript-image-gallery
+
+	var ImageCnt = 0
 	
 	this.findSwatch = function() {
 		return this.image + this.name; 
+		
+	function product(){
+    ImageCnt++;
+    document.getElementById("whiteBox").style.background = 'url(' + product[ImageCnt] + ')';
 };
 	
 	
 //updating an object page 107	
-var teddyBare = new product('img/nude_lip.jpg', 'Teddy Bare', 'brown', 'Milani', 8);
-var shameLess = new product('img/purple_lip.jpg', 'Shameless', 'purple', 'Revlon', 7);
+//var teddyBare = new product('img/nude_lip.jpg', 'Teddy Bare', 'brown', 'Milani', 8);
+//var shameLess = new product('img/purple_lip.jpg', 'Shameless', 'purple', 'Revlon', 7);
  
 
 //var lipstick = new product();
@@ -34,9 +42,9 @@ var shameLess = new product('img/purple_lip.jpg', 'Shameless', 'purple', 'Revlon
 //lipstick.hue = 'purple';
 //lipstick.brand = 'Revlon';
 
-lipstick.search = function() {
-	return this.image + this.name;
-};
+//lipstick.search = function() {
+	//return this.image + this.name;
+//};
 
 //var getSwatch = document.getElementById('lipstickImage');
 //getSwatch.textContent = lipstick.image;
