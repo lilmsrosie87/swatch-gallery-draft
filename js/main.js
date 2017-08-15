@@ -2,12 +2,6 @@ function getThatSwatch () {
 	document.write('Swatches for deeper complexions! Coming Soon');
 }
 
-//function getSwatch(image, color, name, brand, finish, price) {
-	//var swatchSearch = image + color;
-	//var swatchClick = price + brand + formula;
-//var swatchInfo = [swatchSearch + swatchClick];
-	//return swatchInfo;
-//}
 
 
 //constructor notation with many objects
