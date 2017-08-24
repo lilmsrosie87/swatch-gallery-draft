@@ -2,6 +2,12 @@ function getThatSwatch () {
 	document.write('Swatches for deeper complexions! Coming Soon');
 }
 
+// http://w3schools.invisionzone.com/topic/190-display-images-with-javascript/
+checkx=document.images[0].srcif(x="img/nude_lip.jpg"){
+	alert("The image is displayed!")
+	}else{
+	alert("The image isn't here!")
+}
 
 
 //constructor notation with many objects
