@@ -11,6 +11,7 @@ check x = document.images[0].srcif(x="img/nude_lip.jpg"){
 
 
 //constructor notation with many objects
+
  function product(image, name, hue, brand, price) {
 	 this.image = image
 	 this.name = name;
