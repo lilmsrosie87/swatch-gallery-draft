@@ -26,6 +26,8 @@ var lipstick = new product(); {
 	lipstick.hue = 'purple';
 	lipstick.brand = 'Revlon';
 
+var lipstick = new product(); {
+	lipstick.image = 
 }
 //from https://stackoverflow.com/questions/14299917/making-a-simple-javascript-image-gallery
 
