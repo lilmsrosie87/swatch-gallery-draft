@@ -25,6 +25,7 @@ var lipstick = new product(); {
 	lipstick.name = 'Shameless';
 	lipstick.hue = 'purple';
 	lipstick.brand = 'Revlon';
+	lipstick.price = '$8'; 
 
 var lipstick = new product(); {
 	lipstick.image = 
@@ -46,4 +47,4 @@ var lipstick = new product(); {
 var teddyBare = new product('img/nude_lip.jpg', 'Teddy Bare', 'brown', 'Milani', 8);
 var shameLess = new product('img/purple_lip.jpg', 'Shameless', 'purple', 'Revlon', 7);]
 
-	document.write(teddyBare);
+	document.write();
