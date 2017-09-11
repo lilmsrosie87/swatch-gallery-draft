@@ -6,7 +6,7 @@ function getThatSwatch () {
 
 
 
-//constructor notation with many objects
+//constructor notation with many objects and working on this 9/11
 
  function product(image, name, hue, brand, price) {
 	 this.image = image
@@ -14,7 +14,7 @@ function getThatSwatch () {
 	 this.hue = hue;
 	 this.brand = brand;
 	 this.price = price;
-}
+
 	 
 var lipstick = new product(); {
 	lipstick.image = 'img/purple_lip.jpg';
@@ -30,7 +30,7 @@ var lipstick = new product(); {
 	lipstick.brand = 'Stila';
 	lipstick.price = '$25';
 	
-	document.body.appendChild(lipstick.image)
+	document.body.appendChild(lipstick)
 	
 }
 //from https://stackoverflow.com/questions/14299917/making-a-simple-javascript-image-gallery
