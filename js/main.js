@@ -3,11 +3,7 @@ function getThatSwatch () {
 }
 
 // http://w3schools.invisionzone.com/topic/190-display-images-with-javascript/
-check x = document.images[0].srcif(x="img/nude_lip.jpg"){
-	alert("The image is displayed!")
-	}else{
-	alert("The image isn't here!")
-}
+
 
 
 //constructor notation with many objects
@@ -26,9 +22,16 @@ var lipstick = new product(); {
 	lipstick.hue = 'purple';
 	lipstick.brand = 'Revlon';
 	lipstick.price = '$8'; 
-
+	
 var lipstick = new product(); {
-	lipstick.image = 
+	lipstick.image = 'img/burgundy_lip';
+	lipstick.name = 'Ricco';
+	lipstick.hue = 'burgundy';
+	lipstick.brand = 'Stila';
+	lipstick.price = '$25';
+	
+	document.body.appendChild(lipstick.image)
+	
 }
 //from https://stackoverflow.com/questions/14299917/making-a-simple-javascript-image-gallery
 
@@ -45,6 +48,7 @@ var lipstick = new product(); {
 	
 //updating an object page 107	
 var teddyBare = new product('img/nude_lip.jpg', 'Teddy Bare', 'brown', 'Milani', 8);
-var shameLess = new product('img/purple_lip.jpg', 'Shameless', 'purple', 'Revlon', 7);]
+var shameLess = new product('img/purple_lip.jpg', 'Shameless', 'purple', 'Revlon', 7);
+var ricco = new product('img/burgundy_lip.jpg', 'Ricco', 'burgundy' + 'mauve', 'Stila', 20);
 
 	document.write();
