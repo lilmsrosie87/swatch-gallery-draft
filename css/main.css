@@ -1,3 +1,14 @@
+* {
+	font-family: 'Droid Sans';
+	background-color: #f0ccff;
+	text-align: center;
+}
+
+.header { 
+	background-color: #d24dff;
+	font-family: 'Droid Sans';
+ }
+
 div.gallery {
 	margin: 5px;
 	border: 1px solid #ccc;
@@ -17,4 +28,8 @@ div.gallery img {
 div.desc {
 	padding: 15px;
 	text-align: center;
+}
+
+div.container {
+	background-color: #f0ccff;
 }

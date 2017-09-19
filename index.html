@@ -6,28 +6,44 @@
         <title>Rosie's swatch gallery for dark/deep skin</title>
 
         <link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
     </head>
+	
+	<!-- attempting to add color using w3 in div tag -->
+	<div class="heading">
     <h1>The swatch gallery for women with deeper complexions</h1>
+	</div>
+	
     <body>
 	<!-- working on this 9/11 -->
 	
-		<button onclick="product()">Search</button>
+	<div class="search">
+		<input type="text" placeholder>
+		<input type="submit">
+		
+		<!-- May work when html is done and JS file is ready -->
+		<!-- <button onclick="product()">Search</button> -->
+	</div>
+	
 		<div class="gallery">
 			<a target="_blank" href="img/burgundy_lip.jpg">
-				<img src="img/burgundy_lip.jpg" alt="Burgundy lip swatch on dark skin" width="300" height="200">
-			</a>
-			<div class="desc"> Stila liquid lipstick in Ricco</div>
+				<img src="img/burgundy_lip.jpg" data-tags="Liquid, lipstick, matte" alt="burgundy liquid lipstick" width="300" height="200">
+				<div class="desc"> Stila liquid lipstick in Ricco</div>
 		</div>
 		
 		
 		<div class="gallery">
-			<a target="_blank" href="img/nude_li.jpg">
-				<img src="img/nude_lip.jpg" alt="Nude/Brown lip on dark skin" width="300" height="200">
-			</a>
+			<a target="_blank" href="img/nude_lip.jpg">
+				<img src="img/nude_lip.jpg" data-tags="Satin, lipstick" alt="Nude/Brown satin lipstick" width="300" height="200">
 			<div class="desc"> MAC lipstick in Taupe</div>
 		</div>
 		
-		
+		<div class="gallery">
+			<a target="_blank" href="img/magenta_lip.jpg">
+				<img src="img/magenta_lip.jpg" data-tags="Satin, magenta, fushia, lipstick" alt="Magenta lipstick" width="300" height="200">
+			</a>
+			<div class="desc">Bite Beauty lipstick in Kir Royale</div>
+		</div>
 			
     		
 			<!-- <button onclick=""> Look up swatches</button> -->
