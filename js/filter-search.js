@@ -19,8 +19,8 @@
 				index = img.text.indexOf(query);
 			}
 		
-			img.element.style.display = index === -1 ? 'none' : ' '; 
-		]);
+			img.element.style.display = index === -1 ? 'none' : ''; 
+		});
 	}
 	
 	if ('oninput' in $search[0]) {
