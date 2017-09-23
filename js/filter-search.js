@@ -1,11 +1,14 @@
 function myfunction() {
 	filter = input.value.toUpperCase();
-	a = document.getElementById("swatchSearch");
-	dataTags = document.getElementByAttribute("data-tags");
+	dl = document.getElementById("swatchSearch");
+	dd = document.getElementByName("data-tags");
 	// may need to change this later
 	for (i = 0; i < data-tags.length; i++);
-	a =
-	
+		a = data-tags[i].getElementByTagName("dd");
+		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			dd[i].style.display = "";
+		} else {
+			dd[i].style.display = "none";
 
 // from JS book, but console stated that line 2 and 31 are undefined
 
