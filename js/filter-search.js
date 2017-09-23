@@ -1,5 +1,7 @@
 function myfunction() {
-	var 
+	var input, filter, a, img, alt;
+	input= document.getElementById("myInput");
+	
 
 // from JS book, but console stated that line 2 and 31 are undefined
 
