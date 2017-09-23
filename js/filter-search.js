@@ -1,4 +1,5 @@
-
+function myfunction() {
+	var 
 
 // from JS book, but console stated that line 2 and 31 are undefined
 
