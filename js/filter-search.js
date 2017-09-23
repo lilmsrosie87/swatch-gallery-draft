@@ -1,6 +1,10 @@
 function myfunction() {
-	var input, filter, a, img, alt;
-	input= document.getElementById("myInput");
+	filter = input.value.toUpperCase();
+	a = document.getElementById("swatchSearch");
+	dataTags = document.getElementByAttribute("data-tags");
+	// may need to change this later
+	for (i = 0; i < data-tags.length; i++);
+	a =
 	
 
 // from JS book, but console stated that line 2 and 31 are undefined
