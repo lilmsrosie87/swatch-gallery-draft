@@ -3,7 +3,8 @@ function myfunction() {
 	input = document.getElementById("myInput");
 	filter = input.value.toUpperCase();
 	dl = document.getElementById("swatchSearch");
-	dd = document.getElementByName("data-tags");
+	// changed from data-tags to dd
+	dd = document.getElementByName("dd");
 	// may need to change this later
 	for (i = 0; i < data-tags.length; i++) {
 		a = data-tags[i].getElementByTagName("dd");
