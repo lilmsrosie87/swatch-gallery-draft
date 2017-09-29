@@ -32,6 +32,7 @@ div.gallery img {
 	text-align: center;
 }
 
-div.container {
+/* removed div */
+.container {
 	background-color: #f0ccff;
 }
