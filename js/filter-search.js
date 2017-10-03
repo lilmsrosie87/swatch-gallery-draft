@@ -7,7 +7,7 @@ function myfunction() {
 	dd = document.getElementByName("dd");
 	// may need to change this later
 	for (i = 0; i < data-tags.length; i++) {
-		a = data-tags[i].getElementByTagName("dd");
+		a = data-tags[i].getElementByTagName("dd"); 
 		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
 			dd[i].style.display = "";
 		} else {
