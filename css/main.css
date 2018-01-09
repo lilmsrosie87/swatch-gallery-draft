@@ -4,6 +4,11 @@
 	text-align: center
 }
 
+/* hoping this will fix uneven images */
+.dl {
+	
+}
+
 .header { 
 	background-color: #d24dff;
 	font-family: 'Droid Sans';
@@ -14,6 +19,7 @@ div.gallery {
 	border: 1px solid #ccc;
 	float: left;
 	width: 180px;
+	overflow: auto;
 }
 
 div.gallery:hover {
