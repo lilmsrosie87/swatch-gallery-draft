@@ -1,7 +1,11 @@
 * {
 	font-family: 'Droid Sans';
 	background-color: #f0ccff;
-	text-align: center
+	text-align: center;
+}
+
+#swatch {
+	overflow: auto;
 }
 
 /* hoping this will fix uneven images */
@@ -19,7 +23,7 @@ div.gallery {
 	border: 1px solid #ccc;
 	float: left;
 	width: 180px;
-	overflow: auto;
+	padding: 0px;
 }
 
 div.gallery:hover {
