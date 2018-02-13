@@ -1,20 +1,76 @@
-function myfunction() {
-	var input, filter, dl, dd, a, i;
-	input = document.getElementById("myInput");
-	filter = input.value.toUpperCase();
-	dl = document.getElementById("swatchSearch");
-	// changed from data-tags to dd
-	dd = document.getElementByName("dd");
-	// may need to change this later
-	for (i = 0; i < data-tags.length; i++) {
-		a = data-tags[i].getElementByTagName("dd"); 
-		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-			dd[i].style.display = "";
-		} else {
-			dd[i].style.display = "none";
-		}
+// below is from Javascript/Jquery book, but did not work
+// function myfunction() {
+	// var input, filter, dl, dd, a, i;
+	// input = document.getElementById("myInput");
+	// filter = input.value.toUpperCase();
+	// dl = document.getElementById("swatchSearch");
+	// (note) changed from data-tags to dd
+	// dd = document.getElementByName("dd");
+	// (note) may need to change this later
+	// for (i = 0; i < data-tags.length; i++) {
+		// a = data-tags[i].getElementByTagName("dd"); 
+		// if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			// dd[i].style.display = "";
+		// } else {
+			// dd[i].style.display = "none";
+		// }
+	// }
+// }	
+
+
+// this is code used from Codify; hopefully this will work
+
+
+var lipstick = [
+	{
+		image: "img/mentedPinkSwatch.png",
+		name: "Pretty in Pink",
+		brand: "Mented Cosmetics",
+		hue: "pink",
+	},
+	{
+		image: "img/copenhagen.jpg",
+		name: "Copenhagen",
+		brand: "NYX",
+		hue: "red",
+	},
+	{
+		image: "img/dubai.jpg",
+		name: "Dubai",
+		brand: "NYX",
+		hue: "nude",
+	},
+	{
+		image: "img/stunnaBitchFenty.jpg",
+		name: "Stunna",
+		brand: "Fenty Beauty",
+		hue: "red",
 	}
-}	
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // from JS book, but console stated that line 2 and 31 are undefined
 

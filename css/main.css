@@ -6,6 +6,7 @@
 
 #swatch {
 	overflow: auto;
+	flow: right;
 }
 
 /* hoping this will fix uneven images */

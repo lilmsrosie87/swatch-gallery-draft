@@ -1,3 +1,5 @@
+// originally used this before creating image gallery
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
