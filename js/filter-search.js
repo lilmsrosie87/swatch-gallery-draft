@@ -49,6 +49,23 @@ var lipstick = [
 ]
 
 
+// object constructor notation
+
+function Swatch(image, name, brand, hue){
+	this.image = image;
+	this.name = name; 
+	this.brand = brand; 
+	this.hue = hue;
+}
+
+
+var stunna = new Swatch("img/stunnaBitchFenty.jpg", "Stunna", "Fenty Beauty", "red");
+
+document.getElementById("myTurn").innerHTML = "New swatch is " + Swatch.name + " " + Swatch.brand + " ";
+
+
+
+
 
 
 
