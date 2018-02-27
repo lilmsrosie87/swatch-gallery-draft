@@ -9,6 +9,11 @@
 	flow: right;
 }
 
+.gallery {
+	width: 300px;
+	height: 200px
+}
+
 /* hoping this will fix uneven images */
 .dl {
 	
