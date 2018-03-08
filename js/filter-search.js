@@ -21,46 +21,49 @@
 // this is code used from Codify; hopefully this will work
 
 
-var lipstick = [
-	{
-		image: "img/mentedPinkSwatch.png",
-		name: "Pretty in Pink",
-		brand: "Mented Cosmetics",
-		hue: "pink",
-	},
-	{
-		image: "img/copenhagen.jpg",
-		name: "Copenhagen",
-		brand: "NYX",
-		hue: "red",
-	},
-	{
-		image: "img/dubai.jpg",
-		name: "Dubai",
-		brand: "NYX",
-		hue: "nude",
-	},
-	{
-		image: "img/stunnaBitchFenty.jpg",
-		name: "Stunna",
-		brand: "Fenty Beauty",
-		hue: "red",
-	}
-]
+// var lipstick = [
+	// {
+		// image: "img/mentedPinkSwatch.png",
+		// name: "Pretty in Pink",
+		// brand: "Mented Cosmetics",
+		// hue: "pink",
+	// },
+	// {
+		// image: "img/copenhagen.jpg",
+		// name: "Copenhagen",
+		// brand: "NYX",
+		// hue: "red",
+	// },
+	// {
+		// image: "img/dubai.jpg",
+		// name: "Dubai",
+		// brand: "NYX",
+		// hue: "nude",
+	// },
+	// {
+		// image: "img/stunnaBitchFenty.jpg",
+		// name: "Stunna",
+		// brand: "Fenty Beauty",
+		// hue: "red",
+	// }
+// ]
 
 
 // object constructor notation
 
-function Swatch(image, name, brand, hue){
+// constructor function for swatches
+
+function Swatch(image, name, brand, hue) {
 	this.image = image;
-	this.name = name; 
-	this.brand = brand; 
+	this.colorName = name; 
+	this.brandName = brand; 
 	this.hue = hue;
 }
 
-
+// create a new swatch
 var stunna = new Swatch("img/stunnaBitchFenty.jpg", "Stunna", "Fenty Beauty", "red");
 
+// display to ensure it's working; still getting undefined
 document.getElementById("myTurn").innerHTML = "New swatch is " + Swatch.name + " " + Swatch.brand + " ";
 
 
