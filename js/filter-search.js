@@ -62,9 +62,22 @@ function Swatch(image, name, brand, hue) {
 
 // create a new swatch
 var stunna = new Swatch("img/stunnaBitchFenty.jpg", "Stunna", "Fenty Beauty", "red");
+var lolita = new Swatch("img/lolitakvd.jpg", "Lolita", "Kat Von D Beauty", "nude/brown");
 
 // display to ensure it's working; still getting undefined
 document.getElementById("myTurn").innerHTML = "New swatch is " + stunna.colorName + " " + stunna.image;
+
+
+// for enter button to work
+var btn = document.getElementById("userInput");
+btn.addEventListener("keypress", function enterKey(e) {
+	if(e.keyCode == 13) {
+		horoscope();
+	};
+}, false);
+
+function swatchOnPreta();
+
 
 
 
