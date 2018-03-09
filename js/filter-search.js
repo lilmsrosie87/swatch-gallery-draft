@@ -64,7 +64,7 @@ function Swatch(image, name, brand, hue) {
 var stunna = new Swatch("img/stunnaBitchFenty.jpg", "Stunna", "Fenty Beauty", "red");
 
 // display to ensure it's working; still getting undefined
-document.getElementById("myTurn").innerHTML = "New swatch is " + stunna.colorName + " " + stunna.brandName;
+document.getElementById("myTurn").innerHTML = "New swatch is " + stunna.colorName + " " + stunna.image;
 
 
 
