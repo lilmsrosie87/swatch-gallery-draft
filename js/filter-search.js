@@ -76,8 +76,16 @@ btn.addEventListener("keypress", function enterKey(e) {
 	};
 }, false);
 
-function swatchOnPreta();
-
+function swatchOnPreta() {
+	var userdata = document.getElementById(myInput);
+	
+	console.log(userdata);
+	console.log("user value is: " userdata.value);
+	
+	// loop through swatch object constructor array; STOPPED HERE
+	// ____________________________
+	for(var i = 0; i < 
+	
 
 
 
