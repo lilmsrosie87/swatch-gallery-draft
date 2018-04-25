@@ -84,7 +84,10 @@ function swatchOnPreta() {
 	
 	// loop through swatch object constructor array; STOPPED HERE
 	// ____________________________
-	for(var i = 0; i < 
+	for(var i = 0; i < (object constructor array).length; i = i + 1) {
+		console.log("users value lowercase is: " + userdata.value.toLowerCase());
+		
+		console.log("current product in loop is: (object constructor array)[i].colorName);
 	
 
 
