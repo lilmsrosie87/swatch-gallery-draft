@@ -81,7 +81,7 @@ function swatchOnPreta() {
 	
 	console.log(userdata);
 	// console.log("user value is: " userdata.value); (greyed this out)
-	document.getElementByAlt("red".value
+	document.getElementByAlt("red").value;
 	
 	// loop through swatch object constructor array; STOPPED HERE
 	// ____________________________
